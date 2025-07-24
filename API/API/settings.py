@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'FunctionBasedAPI',
+    'classBasedApi',
 ]
 
 # for showin browsable api to show field in forms
