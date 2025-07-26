@@ -22,13 +22,33 @@ from rest_framework.routers import DefaultRouter
 
 from viewSetAPI.views import StudentViewSet
 
+from django.urls import path
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
+
+
 router = DefaultRouter()
 router.register(r'route', StudentViewSet, basename='student')
 
 urlpatterns = [
+    #admin
     path('admin/', admin.site.urls),
+    
+    #other app urls
     path('function/',include('FunctionBasedAPI.urls')),
     path('class/',include('classBasedApi.urls')),
     path('mixin/',include('mixinApi.urls')),
+    
+    # vuewset api router
     path('',include(router.urls)),
+    
+    #! jwt login and refresh token
+    # Token নেওয়ার জন্য
+    path('class/all/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    # Token রিফ্রেশ করার জন্য
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+
+    
 ]

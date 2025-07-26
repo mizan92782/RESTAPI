@@ -201,6 +201,14 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "DefaultRouter",
         "importPath": "rest_framework.routers",
         "description": "rest_framework.routers",
@@ -214,6 +222,22 @@
         "description": "viewSetAPI.views",
         "isExtraImport": true,
         "detail": "viewSetAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
         "documentation": {}
     },
     {
@@ -361,11 +385,52 @@
         "documentation": {}
     },
     {
+        "label": "rest_framework.decorators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
         "label": "api_view",
         "importPath": "rest_framework.decorators",
         "description": "rest_framework.decorators",
         "isExtraImport": true,
         "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
         "documentation": {}
     },
     {
@@ -540,7 +605,7 @@
         "kind": 5,
         "importPath": "API.API.settings",
         "description": "API.API.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n        'rest_framework.renderers.BrowsableAPIRenderer',  # ✅ এই লাইন থাকা চাই\n    ]\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n        'rest_framework.renderers.BrowsableAPIRenderer',  # ✅ এই লাইন থাকা চাই\n    ],\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        #session based authenticaion\n        'rest_framework.authentication.SessionAuthentication',\n        #email and password based authentication\n        'rest_framework.authentication.BasicAuthentication',",
         "detail": "API.API.settings",
         "documentation": {}
     },
@@ -657,7 +722,7 @@
         "kind": 5,
         "importPath": "API.API.urls",
         "description": "API.API.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'route', StudentViewSet, basename='student')\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    path('',include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'route', StudentViewSet, basename='student')\nurlpatterns = [\n    #admin\n    path('admin/', admin.site.urls),\n    #other app urls\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    # vuewset api router",
         "detail": "API.API.urls",
         "documentation": {}
     },
@@ -666,7 +731,7 @@
         "kind": 5,
         "importPath": "API.API.urls",
         "description": "API.API.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    path('',include(router.urls)),\n]",
+        "peekOfCode": "urlpatterns = [\n    #admin\n    path('admin/', admin.site.urls),\n    #other app urls\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    # vuewset api router\n    path('',include(router.urls)),\n    #! jwt login and refresh token",
         "detail": "API.API.urls",
         "documentation": {}
     },
@@ -756,7 +821,7 @@
         "kind": 2,
         "importPath": "API.FunctionBasedAPI.views",
         "description": "API.FunctionBasedAPI.views",
-        "peekOfCode": "def getApi(request):\n  students= Student.objects.all()\n  serializer = StudentSerializer(students, many=True)\n  return Response(serializer.data)\n@api_view(['POST'])\ndef postApi(request):\n    serializer = StudentSerializer(data=request.data)\n    if serializer.is_valid():\n        serializer.save()\n        return Response(serializer.data, status=201)",
+        "peekOfCode": "def getApi(request):\n  students= Student.objects.all()\n  serializer = StudentSerializer(students, many=True)\n  return Response(serializer.data)\n@api_view(['POST'])\n@permission_classes([IsAuthenticated])\ndef postApi(request):\n    serializer = StudentSerializer(data=request.data)\n    if serializer.is_valid():\n        serializer.save()",
         "detail": "API.FunctionBasedAPI.views",
         "documentation": {}
     },
@@ -828,7 +893,7 @@
         "kind": 6,
         "importPath": "API.classBasedApi.views",
         "description": "API.classBasedApi.views",
-        "peekOfCode": "class StudentDetailAPIView(APIView):\n    def get(self, request, pk=None):\n        if pk is None:\n            students = Student.objects.all()\n            serializer = StudentSerializer(students, many=True)\n            return Response(serializer.data)\n        else:\n            student = get_object_or_404(Student, pk=pk)\n            serializer = StudentSerializer(student)\n            return Response(serializer.data)",
+        "peekOfCode": "class StudentDetailAPIView(APIView):\n    #permission of jwt\n    permission_classes=[IsAuthenticated]\n    def get(self, request, pk=None):\n        if pk is None:\n            students = Student.objects.all()\n            serializer = StudentSerializer(students, many=True)\n            return Response(serializer.data)\n        else:\n            student = get_object_or_404(Student, pk=pk)",
         "detail": "API.classBasedApi.views",
         "documentation": {}
     },

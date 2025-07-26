@@ -49,7 +49,21 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
         'rest_framework.renderers.BrowsableAPIRenderer',  # ✅ এই লাইন থাকা চাই
-    ]
+    ],
+    
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        #session based authenticaion
+        'rest_framework.authentication.SessionAuthentication',
+        #email and password based authentication
+       
+        'rest_framework.authentication.BasicAuthentication',
+        #jwt authentication
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        #check authentication stage
+        'rest_framework.permissions.IsAuthenticated',
+    ],
 }
 
 
