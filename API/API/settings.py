@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'FunctionBasedAPI',
     'classBasedApi',
     'mixinApi',
+    'viewSetAPI',
 ]
 
 # for showin browsable api to show field in forms

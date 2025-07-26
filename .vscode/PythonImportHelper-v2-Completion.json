@@ -57,6 +57,78 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -97,6 +169,22 @@
         "documentation": {}
     },
     {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "StudentViewSet",
+        "importPath": "viewSetAPI.views",
+        "description": "viewSetAPI.views",
+        "isExtraImport": true,
+        "detail": "viewSetAPI.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -105,51 +193,11 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -193,6 +241,22 @@
         "documentation": {}
     },
     {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -226,6 +290,14 @@
     },
     {
         "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -286,6 +358,22 @@
         "description": "FunctionBasedAPI.models",
         "isExtraImport": true,
         "detail": "FunctionBasedAPI.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "FunctionBasedAPI.models",
+        "description": "FunctionBasedAPI.models",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentSerializer",
+        "importPath": "FunctionBasedAPI.serializer",
+        "description": "FunctionBasedAPI.serializer",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.serializer",
         "documentation": {}
     },
     {
@@ -533,11 +621,20 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "kind": 5,
+        "importPath": "API.API.urls",
+        "description": "API.API.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'route', StudentViewSet, basename='student')\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    path('',include(router.urls)),\n]",
+        "detail": "API.API.urls",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "API.API.urls",
         "description": "API.API.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n    path('',include(router.urls)),\n]",
         "detail": "API.API.urls",
         "documentation": {}
     },
@@ -710,6 +807,24 @@
         "description": "API.mixinApi.views",
         "peekOfCode": "class StudentMixin(GenericAPIView, \n                   ListModelMixin, \n                   CreateModelMixin, \n                   UpdateModelMixin, \n                   DestroyModelMixin, \n                   RetrieveModelMixin):\n    queryset = Student.objects.all()\n    serializer_class = StudentSerializer\n    def get(self, request, *args, **kwargs):\n        if 'pk' in kwargs:",
         "detail": "API.mixinApi.views",
+        "documentation": {}
+    },
+    {
+        "label": "ViewsetapiConfig",
+        "kind": 6,
+        "importPath": "API.viewSetAPI.apps",
+        "description": "API.viewSetAPI.apps",
+        "peekOfCode": "class ViewsetapiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'viewSetAPI'",
+        "detail": "API.viewSetAPI.apps",
+        "documentation": {}
+    },
+    {
+        "label": "StudentViewSet",
+        "kind": 6,
+        "importPath": "API.viewSetAPI.views",
+        "description": "API.viewSetAPI.views",
+        "peekOfCode": "class StudentViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    A viewset for viewing and editing API instances.\n    \"\"\"\n    queryset = Student.objects.all()\n    serializer_class = StudentSerializer",
+        "detail": "API.viewSetAPI.views",
         "documentation": {}
     },
     {
