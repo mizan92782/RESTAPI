@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('function/',include('FunctionBasedAPI.urls')),
     path('class/',include('classBasedApi.urls')),
+    path('mixin/',include('mixinApi.urls')),
 ]

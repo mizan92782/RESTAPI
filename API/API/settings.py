@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'FunctionBasedAPI',
     'classBasedApi',
+    'mixinApi',
 ]
 
 # for showin browsable api to show field in forms

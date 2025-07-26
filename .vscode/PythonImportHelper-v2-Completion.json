@@ -1,0 +1,724 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "FunctionBasedAPI.models",
+        "description": "FunctionBasedAPI.models",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "importPath": "FunctionBasedAPI.models",
+        "description": "FunctionBasedAPI.models",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentSerializer",
+        "importPath": "FunctionBasedAPI.serializer",
+        "description": "FunctionBasedAPI.serializer",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "StudentSerializer",
+        "importPath": "FunctionBasedAPI.serializer",
+        "description": "FunctionBasedAPI.serializer",
+        "isExtraImport": true,
+        "detail": "FunctionBasedAPI.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "GenericAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "ListModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "CreateModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "DestroyModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "RetrieveModelMixin",
+        "importPath": "rest_framework.mixins",
+        "description": "rest_framework.mixins",
+        "isExtraImport": true,
+        "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "API.API.asgi",
+        "description": "API.API.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "API.API.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-r6+m#%#z&s)yo!_7t)9saiwxtj!pxp+jc$siq4o1lx7(&o8hrs'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-r6+m#%#z&s)yo!_7t)9saiwxtj!pxp+jc$siq4o1lx7(&o8hrs'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'FunctionBasedAPI',\n    'classBasedApi',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n        'rest_framework.renderers.BrowsableAPIRenderer',  # ✅ এই লাইন থাকা চাই\n    ]\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'API.urls'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "ROOT_URLCONF = 'API.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'API.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "API.API.settings",
+        "description": "API.API.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "API.API.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "API.API.urls",
+        "description": "API.API.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('function/',include('FunctionBasedAPI.urls')),\n    path('class/',include('classBasedApi.urls')),\n    path('mixin/',include('mixinApi.urls')),\n]",
+        "detail": "API.API.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "API.API.wsgi",
+        "description": "API.API.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "API.API.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.migrations.0001_initial",
+        "description": "API.FunctionBasedAPI.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Student',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "API.FunctionBasedAPI.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.migrations.0002_rename_student_class_student_department",
+        "description": "API.FunctionBasedAPI.migrations.0002_rename_student_class_student_department",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('FunctionBasedAPI', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='student',\n            old_name='student_class',\n            new_name='department',\n        ),",
+        "detail": "API.FunctionBasedAPI.migrations.0002_rename_student_class_student_department",
+        "documentation": {}
+    },
+    {
+        "label": "FunctionbasedapiConfig",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.apps",
+        "description": "API.FunctionBasedAPI.apps",
+        "peekOfCode": "class FunctionbasedapiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'FunctionBasedAPI'",
+        "detail": "API.FunctionBasedAPI.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.models",
+        "description": "API.FunctionBasedAPI.models",
+        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=100)\n    age = models.IntegerField()\n    department = models.CharField(max_length=20)\n    def __str__(self):\n        return self.name",
+        "detail": "API.FunctionBasedAPI.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentSerializer",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.serializer",
+        "description": "API.FunctionBasedAPI.serializer",
+        "peekOfCode": "class StudentSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Student\n        fields = '__all__'",
+        "detail": "API.FunctionBasedAPI.serializer",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "API.FunctionBasedAPI.urls",
+        "description": "API.FunctionBasedAPI.urls",
+        "peekOfCode": "urlpatterns = [\n  path('get/',views.getApi, name='get'),\n  path('post/',views.postApi, name='post'),\n  path('update/<int:pk>',views.updateApi, name='updat'),\n  path('delete/<int:pk>',views.deleteApi, name='delete'),\n  path('all/',views.allApi, name='all'),\n  path('all/<int:pk>',views.allApi, name='all'),\n]",
+        "detail": "API.FunctionBasedAPI.urls",
+        "documentation": {}
+    },
+    {
+        "label": "getApi",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def getApi(request):\n  students= Student.objects.all()\n  serializer = StudentSerializer(students, many=True)\n  return Response(serializer.data)\n@api_view(['POST'])\ndef postApi(request):\n    serializer = StudentSerializer(data=request.data)\n    if serializer.is_valid():\n        serializer.save()\n        return Response(serializer.data, status=201)",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "postApi",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def postApi(request):\n    serializer = StudentSerializer(data=request.data)\n    if serializer.is_valid():\n        serializer.save()\n        return Response(serializer.data, status=201)\n    return Response(serializer.errors, status=400)\n@api_view(['PATCH'])\ndef updateApi(request, pk):\n    try:\n        student = Student.objects.get(pk=pk)",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "updateApi",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def updateApi(request, pk):\n    try:\n        student = Student.objects.get(pk=pk)\n    except Student.DoesNotExist:\n        return Response({'error': 'Student not found'}, status=404)\n    serializer = StudentSerializer(student, data=request.data,partial=True)\n    if serializer.is_valid():\n        serializer.save()\n        return Response(serializer.data)\n    return Response(serializer.errors, status=400)",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "deleteApi",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def deleteApi(request, pk):\n    try:\n        student = Student.objects.get(pk=pk)\n    except Student.DoesNotExist:\n        return Response({'error': 'Student not found'}, status=404)\n    student.delete()\n    return Response(status=204)\n# List & Create\n@api_view(['GET', 'POST'])\ndef student_list(request):",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "student_list",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def student_list(request):\n    if request.method == 'GET':\n        students = Student.objects.all()\n        serializer = StudentSerializer(students, many=True)\n        return Response(serializer.data)\n    elif request.method == 'POST':\n        serializer = StudentSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(serializer.data, status=status.HTTP_201_CREATED)",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "allApi",
+        "kind": 2,
+        "importPath": "API.FunctionBasedAPI.views",
+        "description": "API.FunctionBasedAPI.views",
+        "peekOfCode": "def allApi(request, pk=None):\n    if pk is None:\n      if request.method == 'GET':\n          students = Student.objects.all()\n          serializer = StudentSerializer(students, many=True)\n          return Response(serializer.data)\n    else:\n      try:\n          student = Student.objects.get(pk=pk)\n      except Student.DoesNotExist:",
+        "detail": "API.FunctionBasedAPI.views",
+        "documentation": {}
+    },
+    {
+        "label": "ClassbasedapiConfig",
+        "kind": 6,
+        "importPath": "API.classBasedApi.apps",
+        "description": "API.classBasedApi.apps",
+        "peekOfCode": "class ClassbasedapiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'classBasedApi'",
+        "detail": "API.classBasedApi.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "API.classBasedApi.urls",
+        "description": "API.classBasedApi.urls",
+        "peekOfCode": "urlpatterns = [\n    path('all/', StudentDetailAPIView.as_view(), name='func-api'),\n    path('all/<int:pk>', StudentDetailAPIView.as_view(), name='func-api'),\n]",
+        "detail": "API.classBasedApi.urls",
+        "documentation": {}
+    },
+    {
+        "label": "StudentDetailAPIView",
+        "kind": 6,
+        "importPath": "API.classBasedApi.views",
+        "description": "API.classBasedApi.views",
+        "peekOfCode": "class StudentDetailAPIView(APIView):\n    def get(self, request, pk=None):\n        if pk is None:\n            students = Student.objects.all()\n            serializer = StudentSerializer(students, many=True)\n            return Response(serializer.data)\n        else:\n            student = get_object_or_404(Student, pk=pk)\n            serializer = StudentSerializer(student)\n            return Response(serializer.data)",
+        "detail": "API.classBasedApi.views",
+        "documentation": {}
+    },
+    {
+        "label": "MixinapiConfig",
+        "kind": 6,
+        "importPath": "API.mixinApi.apps",
+        "description": "API.mixinApi.apps",
+        "peekOfCode": "class MixinapiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'mixinApi'",
+        "detail": "API.mixinApi.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "API.mixinApi.urls",
+        "description": "API.mixinApi.urls",
+        "peekOfCode": "urlpatterns = [\n    path('allapi/<int:pk>/',views.StudentMixin.as_view(), name='mixin'),\n    path('allapi/',views.StudentMixin.as_view(), name='mixinPk'),\n]",
+        "detail": "API.mixinApi.urls",
+        "documentation": {}
+    },
+    {
+        "label": "StudentMixin",
+        "kind": 6,
+        "importPath": "API.mixinApi.views",
+        "description": "API.mixinApi.views",
+        "peekOfCode": "class StudentMixin(GenericAPIView, \n                   ListModelMixin, \n                   CreateModelMixin, \n                   UpdateModelMixin, \n                   DestroyModelMixin, \n                   RetrieveModelMixin):\n    queryset = Student.objects.all()\n    serializer_class = StudentSerializer\n    def get(self, request, *args, **kwargs):\n        if 'pk' in kwargs:",
+        "detail": "API.mixinApi.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "API.manage",
+        "description": "API.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'API.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "API.manage",
+        "documentation": {}
+    }
+]
