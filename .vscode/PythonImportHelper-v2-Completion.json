@@ -97,6 +97,38 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -666,6 +698,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.migrations.0003_student_institute",
+        "description": "API.FunctionBasedAPI.migrations.0003_student_institute",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('FunctionBasedAPI', '0002_rename_student_class_student_department'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='student',\n            name='institute',\n            field=models.CharField(default='PCIU', max_length=100),\n        ),",
+        "detail": "API.FunctionBasedAPI.migrations.0003_student_institute",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "API.FunctionBasedAPI.migrations.0004_student_location",
+        "description": "API.FunctionBasedAPI.migrations.0004_student_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('FunctionBasedAPI', '0003_student_institute'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='student',\n            name='location',\n            field=models.CharField(default='Bd', max_length=100),\n        ),",
+        "detail": "API.FunctionBasedAPI.migrations.0004_student_location",
+        "documentation": {}
+    },
+    {
         "label": "FunctionbasedapiConfig",
         "kind": 6,
         "importPath": "API.FunctionBasedAPI.apps",
@@ -679,7 +729,7 @@
         "kind": 6,
         "importPath": "API.FunctionBasedAPI.models",
         "description": "API.FunctionBasedAPI.models",
-        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=100)\n    age = models.IntegerField()\n    department = models.CharField(max_length=20)\n    def __str__(self):\n        return self.name",
+        "peekOfCode": "class Student(models.Model):\n    name = models.CharField(max_length=100)\n    age = models.IntegerField()\n    institute = models.CharField(default='PCIU',max_length=100)\n    location = models.CharField(default='Bd',max_length=100)\n    department = models.CharField(max_length=20)\n    def __str__(self):\n        return self.name",
         "detail": "API.FunctionBasedAPI.models",
         "documentation": {}
     },
@@ -688,7 +738,7 @@
         "kind": 6,
         "importPath": "API.FunctionBasedAPI.serializer",
         "description": "API.FunctionBasedAPI.serializer",
-        "peekOfCode": "class StudentSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Student\n        fields = '__all__'",
+        "peekOfCode": "class StudentSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Student\n        fields = '__all__'\n        #! read only filed not show but add\n        read_only_fields = ['institute']\n        #! write only field can write but not show in get\n        extra_kwargs = {\n            'location': {'write_only': True},\n        }",
         "detail": "API.FunctionBasedAPI.serializer",
         "documentation": {}
     },
