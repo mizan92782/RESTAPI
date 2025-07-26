@@ -75,6 +75,17 @@ REST_FRAMEWORK = {
         'rest_framework.filters.OrderingFilter',
         'django_filters.rest_framework.DjangoFilterBackend',
     ],
+    
+    
+    # throttling: controll access limit aif use and anonymous use
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',      # Anonymous ইউজার
+        'rest_framework.throttling.UserRateThrottle',      # Authenticated ইউজার
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '5/hour',   # anon ইউজার প্রতি ঘণ্টায় ৫ বার
+        'user': '20/hour'   # লগইন ইউজার প্রতি ঘণ্টায় ২০ বার
+    }
 }
 
 
