@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'classBasedApi',
     'mixinApi',
     'viewSetAPI',
+    'django_filters',  #for pagination form
 ]
 
 # for showin browsable api to show field in forms
@@ -63,6 +64,16 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         #check authentication stage
         'rest_framework.permissions.IsAuthenticated',
+    ],
+    
+    #! pagination settings: set how to show data in api in page
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 5,
+
+    'DEFAULT_FILTER_BACKENDS': [
+        'rest_framework.filters.SearchFilter',
+        'rest_framework.filters.OrderingFilter',
+        'django_filters.rest_framework.DjangoFilterBackend',
     ],
 }
 

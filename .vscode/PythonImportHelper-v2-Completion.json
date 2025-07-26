@@ -305,6 +305,14 @@
         "documentation": {}
     },
     {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -535,6 +543,14 @@
         "description": "rest_framework.mixins",
         "isExtraImport": true,
         "detail": "rest_framework.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
         "documentation": {}
     },
     {
@@ -938,7 +954,7 @@
         "kind": 6,
         "importPath": "API.viewSetAPI.views",
         "description": "API.viewSetAPI.views",
-        "peekOfCode": "class StudentViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    A viewset for viewing and editing API instances.\n    \"\"\"\n    queryset = Student.objects.all()\n    serializer_class = StudentSerializer",
+        "peekOfCode": "class StudentViewSet(viewsets.ModelViewSet):\n    \"\"\"\n    A viewset for viewing and editing API instances.\n    \"\"\"\n    queryset = Student.objects.all()\n    serializer_class = StudentSerializer\n    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]\n    filterset_fields = [ 'age']  # ?student_class=Six\n    search_fields = ['name']                     # ?search=rahim\n    ordering_fields = ['name', 'age']            # ?ordering=age",
         "detail": "API.viewSetAPI.views",
         "documentation": {}
     },
